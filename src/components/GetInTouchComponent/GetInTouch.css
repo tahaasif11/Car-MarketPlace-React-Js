@@ -1,0 +1,71 @@
+/* GetInTouch.css */
+.section {
+    margin: auto;
+    max-width: 1200px;
+    /* Adjust based on your needs */
+    padding: 4rem 1rem;
+}
+
+.grid {
+    display: flex;
+}
+
+.imageContainer {
+    position: relative;
+    z-index: 21;
+    flex: 1;
+    right: -60px;
+}
+
+.image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding: 3rem;
+    /* Increased padding */
+    flex: 1;
+    /* Take up half the width */
+    position: relative;
+    /* Added for overlap */
+    margin-top: -50px;
+    /* Adjust this value for overlap */
+    margin-bottom: 50px;
+    z-index: 20;
+    /* Ensure it is above the image */
+}
+
+.content {
+    padding: 2rem 4rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.paragraph {
+    margin-top: 1rem;
+    color: #4A5568;
+}
+
+.button {
+    margin-top: 2rem;
+    display: inline-block;
+    border-radius: 0.375rem;
+    border: 1px solid #5A67D8;
+    background-color: #5A67D8;
+    padding: 0.75rem 3rem;
+    font-size: 0.875rem;
+    font-weight: medium;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}

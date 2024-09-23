@@ -1,0 +1,36 @@
+/* Footer.css */
+.footer {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.lorem {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.anchorContainer {
+    margin: 10px 0;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: inherit;
+    margin-top: 8px;
+}
+
+.socialMedia {
+    margin-top: 20px;
+}
+
+.socialIcon {
+    margin: 0 25px;
+    width: 27px;
+    height: 27px;
+}
